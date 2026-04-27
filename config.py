@@ -1,7 +1,5 @@
-# Конфигурация для Telegram бота
-# Получите токен у BotFather в Telegram
+import os
 
-TOKEN = "8708053185:AAEbthIehjuPyKHfv3dPbf89955v5viUqfU"
+TOKEN = os.environ.get("TOKEN")
 
-# Укажите имя бота (без @)
 BOT_USERNAME = "suedrtibhvpieuasrbvusdb_bot"
